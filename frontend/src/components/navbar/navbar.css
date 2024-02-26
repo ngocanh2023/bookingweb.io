@@ -1,0 +1,44 @@
+.navbar{
+  height: 10vh;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+.navLogin{
+  display: flex;
+  padding-right: 2vw;
+}
+.navItems{
+  display: flex;
+  margin-left: 60vw;
+}
+.navContainer{
+  width: 100vw;
+  /* max-width: 1024px; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1vw;
+}
+
+.logo{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+  border-radius: 0.5rem;
+}
+.transBtn {
+  padding-left: 2vw;
+}
+.transBtn button {
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  border-radius: 0.5rem;
+}
