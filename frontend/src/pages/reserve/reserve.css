@@ -1,0 +1,152 @@
+.hotelDetail {
+  /* display: flex; */
+  gap: 20px;
+  /* margin-top: 20px; */
+  width: 98vw;
+  padding-left: 1vw;
+}
+.nameDeseve {
+  display: flex;
+}
+.reserveDetail {
+  padding: 2vh 0 0 0;
+}
+.hotelDetailsTexts {
+  display: flex;
+  justify-content:space-between;
+}
+
+.hotelTitle {
+  font-size: 1.4rem;
+}
+.hotelDesc {
+  font-size: 1vw;
+  margin-top: 1vh;
+  width: 40vw;
+  font-size: 1.2vw;
+}
+.hotelPrice {
+  /* flex: 1; */
+  background-color: #ebf3ff;
+  /* display: grid; */
+  flex-direction: column;
+  /* gap: 20px; */
+  /* width: 16vw; */
+  padding: 1vh 5vw 1vh 0vw;
+  margin: 0 1vw 0 7vw;
+  height: 10vh;
+  border-radius: 0.5vw;
+}
+
+.hotelPrice h4 {
+  padding-left: 1vw;
+}
+
+.buttonReserve {
+  padding: 1vh 1vw 0vh 1vw;
+  width: 10vw;
+  height: 5vw
+}
+
+.hotelPrice button {
+  border: none;
+  padding: 1vh 0vw 1vh 0vw;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.5vw;
+  width: 15vw;
+  height: 5vh;
+}
+.calendar {
+  width: 25vw;
+}
+.calendarReserve {
+  display: flex;
+  padding: 1vh 1vw 1vh 1vw;
+  /* width: 50vw; */
+}
+.reserve {
+  padding-left: 1vw;
+}
+
+.reserve h3 {
+  padding: 0 0 5vh 0;
+}
+
+.phoneInput,
+.nameInput,
+.emailInput,
+.cardInput {
+  padding: 1vh 0 1vh 0;
+}
+.phoneInput input,
+.nameInput input,
+.emailInput input,
+.cardInput input {
+  width: 30vw;
+}
+.boxDouble {
+  display: flex;
+  /* padding-left: 2vw; */
+}
+/* .budgetDouble {
+  display: flex;
+} */
+.doubleTwin {
+  padding-left: 1vw;
+  font-size: 1.2vw;
+}
+.boxTwin {
+  display: flex;
+  /* padding-left: 1vw; */
+  /* font-size: 1.2vw; */
+}
+.getRoom h3 {
+  padding-left: 5vw;
+}
+/* .twinRoom {
+  display: flex;
+} */
+.budgetTwin {
+  padding: 2vh 0 1vh 0;
+}
+.doubleRoom {
+  padding: 2vh 0 0 0;
+}
+.selectPayment select {
+  width: 20vw;
+}
+.selectPayment {
+  display: flex;
+}
+.reseveNow button {
+  border: none;
+  padding: 2vh 2vw 2vh 2vw;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.5vw;
+}
+.reseveNow {
+  padding: 0 0 0 5vw;
+}
+.totalReserve {
+    padding: 0 0 0 1vw;
+}
+.infoAlert {
+  color: red;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 1vh 1vw 1vh 0vw;
+}
+@media only screen and (max-width: 768px) {
+ .calendarReserve {
+  display: inline;
+ }
+ .hotelDetailsTexts {
+  display: inline;
+ }
+}
