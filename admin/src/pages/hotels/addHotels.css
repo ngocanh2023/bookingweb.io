@@ -1,0 +1,60 @@
+.hotelTitle {
+    display: flex;
+    padding: 2vh 1vw 2vh 1vw;
+    width: 83vw;
+}
+.addNew {
+    padding: 0 0 0 60vw;
+}
+.addNew button {
+    border-radius: 0.5rem;   
+}
+.addNew button:active {
+    background-color: rgb(140, 140, 252);
+    color: white;
+    border-radius: 0.5rem;
+}
+#table-hotelContainer {
+    width: 84vw;
+}
+.tableHotel {
+    width: 84vw;
+    padding: 1vh 1vw 1vh 1vw;
+}
+.tableContainer {
+    border: 0.1rem solid rgb(172, 169, 169);
+    margin: 0 0 0 1vw;
+    border-radius: 0.5rem;
+    box-shadow: 1vh 1vw rgb(176, 173, 173);
+}
+th {
+    height: 5vh;
+    font-size: 0.9rem;
+}
+td {
+    font-size: 0.8rem;
+}
+.hotelList {
+    width: 15vw;
+}
+.hotelList h4 {
+    font-size: 1rem;
+}
+.btnControl {
+    display: flex;
+}
+.editBtn {
+    padding: 0 0 0 0.5vw;
+}
+.editBtn button {
+    background-color: rgb(38, 191, 38);
+    color: white;
+    border-radius: 0.2rem;
+    border: 0.1rem solid grey;
+}
+.deleteBtn button{
+    background-color: red;
+    color: white;
+    border-radius: 0.2rem;
+    border: 0.1rem solid grey;
+}
