@@ -1,0 +1,39 @@
+.roomsTitle {
+    display: flex;
+}
+.roomList {
+    padding: 2vh 0 2vh 1vw;
+    width: 20vw;
+}
+.roomList h4 {
+    font-size: 1.2rem;
+}
+.addNewRooms {
+    padding: 2vh 0 0 50vw;
+    width: 10vw;
+}
+.addNewRooms button {
+    font-size: 0.8rem;
+}
+.tableRoomContainer {
+    padding: 0 0 0 1vw;
+    width: 80vw;
+}
+.btnControl {
+    display: flex;
+}
+.deleteRoomBtn button{
+    background-color: red;
+    color: white;
+    border-radius: 0.2rem;
+    border: 0.1rem solid grey;
+}
+.editRoomBtn {
+    padding: 0 0 0 0.2vw;
+}
+.editRoomBtn button{
+    background-color: rgb(38, 191, 38);
+    color: white;
+    border-radius: 0.2rem;
+    border: 0.1rem solid grey;
+}

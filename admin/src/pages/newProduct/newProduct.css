@@ -1,0 +1,45 @@
+h3{
+  font-size: 1.2rem;
+  padding: 2vh 0 2vh 2vw;
+}
+/* form {
+  padding: 0 0 0 2vw;
+  width: 80vw;
+} */
+.nameInp input, .descInp textarea, .priceInp input, .cityInp input, .distanceInp input,.typeInp input,.addressInp input,.titleInp input,.priceInp input,.roomInp input {
+  width: 40vw;
+  height: 4vh;
+  font-size: 0.8rem;
+}
+.nameInp, .descInp, .priceInp, .cityInp, .distanceInp,.typeInp,.addressInp,.titleInp,.priceInp,.roomInp {
+  padding: 0vh 0 1vh 2vw;
+}
+.featuredInp{
+  font-size: 0.8rem;
+  padding: 0vh 0 1vh 2vw;
+}
+.featuredInp label{
+  padding: 0 0 0 1vw;
+}
+.imageInp input{
+  padding: 0 0 0 2vw;
+  width: 40vw;
+  height: 4vh;
+}
+.submitBtn{
+  padding: 2vh 0 0 2vw;
+}
+.submitBtn button{
+  width: 10vw;
+  height:5vh;
+  font-size: 1rem;
+  background-color: rgb(78, 78, 216);
+  color: white;
+  border-radius: 0.5rem;
+  margin: 0 0 0 2vw;
+}
+.submitBtn button:hover{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
